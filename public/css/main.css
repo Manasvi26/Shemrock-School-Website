@@ -1,0 +1,573 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+    background-image: url('../images/BG.png');
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding-top: 2%;
+}
+
+.navLogoContainer{
+ 
+    margin-left: 5%;
+}
+
+.schoolLogo{
+    height: 100px;
+    width: 200px;
+    /* border: 1px solid red; */
+}
+
+.navLinksContainer{
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid greenyellow; */
+    gap: 136px;
+    margin-right: 5%;
+    align-items: center;
+    width: 60%;
+    height: 100px;
+}
+
+
+
+.navLink{
+    color: whitesmoke;
+    font-size: 19px;
+}
+
+.navLinkButton{
+    color: whitesmoke;
+    font-size: 19px;
+    background-color: #14AB00;
+    display: flex;
+    height: 50px;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navLinkButton:hover{
+  cursor: pointer;
+  background: #F98E2B;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+
+.bannerContent{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 83px;
+    height: 70%;
+    width: 80%;
+}
+
+.schoolInfoCont{
+    /* border: 1px solid yellow; */
+    width: 56%;
+    height: 100%;
+    color: whitesmoke;
+    line-height: 63px;
+    margin-top: 213px;
+}
+
+.schoolName{
+    font-size: 40px;
+}
+
+.schoolDetails{
+    font-weight: 700;
+}
+
+.schoolDetailsIcon{
+    height: 18px;
+    margin-right: 10px;
+}
+
+
+
+.formSection{
+    width: 27%;
+    height: 60%;
+    margin-bottom: 15%;
+}
+
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  #contact {
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 20px 20px 20px; 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.64);
+    border-radius: 20px ;
+    background: white;
+  }
+  
+  
+.reachUsHeadingForm {
+
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 40%;
+    margin-bottom: 3px;
+
+    color: gray;
+  }
+  
+  
+  .talkToUsHeadingForm {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 32%;
+
+    margin-bottom: 13px;
+   
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fafafa;
+    margin: 5px 10px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border: none;
+  /*   background: #4CAF50; */
+   background: #7C45EA;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
+
+
+  .statisticsContainer{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 263px;
+      background: #d1e9f3;
+  }
+
+  .statisticsContainerItem{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .statisticsContainerItem > img{
+      width: 70%;
+      height: 50px;
+      margin-bottom: 20px;
+  }
+
+
+  .statisticsContainerItemLine-1{
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #F98E2B;
+  }
+
+.statisticsContainerItemLine-2{
+    margin-bottom: 10px;
+}
+
+
+.aboutSchoolCont{
+    margin-left: 3%;
+    height: 600px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.aboutDetails{
+  height: 88%;
+  width: 29%;
+  /* border: 1px solid green; */
+  display: flex;
+  /* display: grid; */
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aboutDetalisHeading{
+  color: #0099FF;
+  font-size: 50px;
+}
+
+.aboutDetalisPara{
+
+}
+
+.aboutButtons{
+  display: flex;
+  justify-content:flex-start ;
+  align-items: center;
+}
+
+.aboutButton{
+  color: whitesmoke;
+  font-size: 19px;
+  background-color: #F98E2B;
+  display: flex;
+  height: 50px;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.aboutButton:hover{
+  cursor: pointer;
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+.aboutBanner{
+height: 100%;
+width: 44%;
+/* border: 1px solid yellow; */
+}
+
+.aboutBanner > img{
+  width: 96%;
+}
+
+
+.tourSection{
+  display: flex;
+  flex-direction: column;
+  background: #d1e9f3;
+  height: 1000px;
+}
+
+.tourContainer{
+
+  width: 65%;
+  margin: auto;
+  height: 620px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/* border: 1px solid red; */
+}
+
+.tourHeading{
+  color: #0099FF;
+  padding: 3%;
+  font-size: 50px;
+  width: 18%;
+  margin: auto;
+  margin-top: 2%;
+ 
+}
+
+.innnerContTour{
+
+  width: 40%;
+  height: 100%;
+
+}
+
+.upperCont{
+  display: flex;
+
+  width: 100%;
+  height: 35%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+
+.lowerCont{
+
+  width: 100%;
+  height: 53%;
+  width: 100%;
+  align-items: center;
+
+
+}
+
+.smallTourImage{
+  width:90%;
+}
+
+.biggerTourImage{
+width: 95%;
+}
+
+.buttonTourSection{
+  color: whitesmoke;
+  font-size: 19px;
+  background-color: #F98E2B;
+  display: flex;
+  height: 50px;
+  width: 230px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.gallarySection{
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid red; */
+}
+
+.galleryHeading{
+  color: #0099FF;
+  padding: 3%;
+  padding-left: 9%;
+
+  font-size: 50px;
+  width: 18%;
+  margin: auto;
+  margin-top: 2%;
+
+
+}
+
+.galleryContainer{
+  /* border: 1px solid red; */
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insideContainerGallery{
+  width: 33%;
+  height: 100%;
+  /* border: 1px solid green; */
+  padding: 2%;
+}
+
+.insideContainerGallery > div{
+font-size: 20px;
+margin-top: 3%;
+}
+
+
+
+.galleryImage{
+width: 100%;
+height: 50%;
+}
+
+.prinicipalSection{
+  margin: auto;
+  width: 70%;
+  height: 500px;
+  display: flex;
+  background: #d1e9f3;
+}
+
+.prinicipalSectionCont1{
+  width: 50% ;
+  height: 90%;
+  /* border: 1px solid blue; */
+  padding: 2%;
+  /* padding: 5%; */
+}
+
+.prinicipalSectionCont1 > p{
+line-height:25px;
+}
+
+.principalName{
+  color:#0099FF;
+  font-weight: 500;
+}
+
+.principalImage{
+  width: 66%;
+    height: 100%;
+    float: right;
+}
+
+.programsOfferedSection{
+  width: 100%;
+  height: 733px;
+  /* border: 1px solid red; */
+  
+}
+
+.programsOfferedHeading{
+  color: #0099FF;
+  padding: 3%;
+  padding-left: 9%;
+
+  font-size: 50px;
+  width: 28%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.programsOfferedContainer{
+
+   /* border: 1px solid red; */
+   width: 70%;
+   height: 73%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.insideProgramsOfferedContainer{
+  width: 33%;
+  height: 88%;
+  /* border: 1px solid green; */
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+
+}
+
+.insideProgramsOfferedContainer > div{
+  font-size: 20px;
+  margin-top: 3%;
+  font-weight: 600;
+  }
+
+  .programsOfferedImage{
+    width: 69%;
+    height: 50%;
+    }
+
+  .programsOffered{
+    width: 100%;
+    height: 50%;
+    }
+
+    .schoolFeaturesSection{
+      width: 100%;
+      height: 733px;
+      background: #d1e9f3;
+      
+    }
+    

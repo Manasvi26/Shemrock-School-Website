@@ -1,0 +1,16 @@
+{
+  "name": "Shemrock_School_Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browsersync": "browser-sync start --directory --server ./public --files ./public/* --startPath index.html",
+    "watch": "npm-run-all build --parallel watch-templates watch-css browsersync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}
