@@ -676,35 +676,113 @@ align-items: center;
     }
 
 
-    .accordionSection{
-      width: 70%;
-      margin: auto;
-      margin-bottom: 200px;
-      background-color: #eee;
+    #syllabus {
+      /* background-image: linear-gradient(155deg, #4661db, #4fb4c9); */
+      background: #d1e9f3;
     }
-   
+    
+    .container-syllabus {
+      width: 100%;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+    }
+    
+    .faqSearchDiv{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+ 
+    .faqSearchBox{
+      width: 35%;
+      padding: 1%;
+      border: 2px solid orange;
+      border-radius: 12px;
+    }
+
+    .searchIconGreen {
+      width: 67%;
+      margin-top: 31%;
+      margin-left: -89%;
+    }
+
+    .container-syllabus h1 {
+      color: #0099FF;
+    font-size: 50px;
+    /* margin-top: 4%; */
+    width: 70%;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    }
     
     .accordion {
-      background-color: #eee;
-      color: #444;
-      cursor: pointer;
-      padding: 18px;
       width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-      transition: 0.4s;
+      max-width: 1000px;
     }
     
-    .active, .accordion:hover {
-      background-color: #ccc; 
+    .accordion-item {
+      background-color: #ecf3fc;
+      color: #111;
+      margin: 1rem 0;
+      
+      /* border-radius: 0.5rem; */
+      /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25); */
     }
     
-    .panel {
-      padding: 0 18px;
-      display: none;
-      background-color: white;
+    .accordion-item-header {
+      padding: 0.5rem 3rem 0.5rem 1rem;
+      min-height: 3.5rem;
+      line-height: 1.25rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+    }
+    
+    .accordion-item-header::after {
+      content: "\02C7";
+      font-size: 3rem;
+      position: absolute;
+      right: 1rem;
+    }
+    
+    .accordion-item-header.active::after {
+      content: "\02C6";
+    }
+    
+    .accordion-item-body {
+      background: #fff;
+      max-height: 0;
       overflow: hidden;
-      /* transition: 0.2s; */
+      transition: max-height 0.2s ease-out;
+    }
+    
+    .accordion-item-body-content {
+      padding: 1rem;
+      line-height: 1.5rem;
+      border-top: 1px solid;
+    }
+    
+    .lists {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      list-style: none;
+      padding-left: 0;
+    }
+    
+    .flex-item {
+      padding-bottom: 35px;
+      border-bottom: 1px solid black;
+    }
+    
+    .border-none {
+      border: none;
     }
