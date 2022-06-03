@@ -478,7 +478,6 @@ height: 50%;
 .prinicipalSection{
   margin: auto;
   width: 70%;
-  height: 500px;
   display: flex;
   background: #d1e9f3;
 }
@@ -519,7 +518,7 @@ line-height:25px;
   padding-left: 9%;
 
   font-size: 50px;
-  width: 28%;
+  width: 35%;
   margin: auto;
   margin-top: 2%;
 }
@@ -571,3 +570,141 @@ align-items: center;
       
     }
     
+    .newsAndEventSection{
+       /* border: 1px solid red; */
+      height: 60vh;
+      width: 70vw;
+      margin: auto;
+      margin-top: 8vh;
+      margin-bottom: 100px;
+      display: flex;
+    }
+    
+
+    .newsEventInnerCont{
+      /* border: 1px solid blue; */
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .newsEventInnerCont > img{
+      width: 71%;
+      height: 83%;
+    }
+
+    .newsEventInnerCont2{
+      /* border: 1px solid blue; */
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+ 
+      /* align-items: center; */
+    }
+
+    .newsEventHeading{
+      color: #0099FF;
+      font-size: 50px;
+      margin-top: 4%;
+    }
+
+    .newsEventSubHeading{
+      font-size: 25px;
+      margin-top: 50px;
+    }
+
+    .newsEventInnerCont2 > p{
+      margin-top: 6%;
+    }
+
+    .buttonIcon{
+      width: 10%;
+      margin-top: 4%;
+    }
+
+
+  
+.ratingSectionOuterCont{
+  background: #d1e9f3;
+}
+
+    .ratingSection{
+      width: 70%;
+      height: 35vh;
+      margin: auto;
+      /* border: 1px solid red; */
+      margin-bottom: 200px;
+
+    }
+
+    .ratingHeading{
+      color: #0099FF;
+      font-size: 50px;
+      /* margin-top: 4%; */
+      width: 30%;
+      margin: auto;
+    }
+
+    .ratingsCont{
+      display: flex;
+      width: 100%;
+      /* height: 70%;/ */
+    justify-content: space-around;
+    margin-top: 5%;
+   
+    }
+
+    .ratingItem{
+      border: 1px sild blue;
+      width: 16%;
+      height:40% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-right: 2px solid gray;
+      /* line-height: 30%; */
+    }
+
+    .rating{
+      font-size: 40px;
+      font-weight: 600;
+      margin-top: 8%;
+    }
+
+
+    .accordionSection{
+      width: 70%;
+      margin: auto;
+      margin-bottom: 200px;
+      background-color: #eee;
+    }
+   
+    
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc; 
+    }
+    
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+      /* transition: 0.2s; */
+    }
