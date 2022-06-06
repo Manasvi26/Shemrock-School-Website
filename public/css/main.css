@@ -1288,3 +1288,644 @@ align-items: center;
       flex-direction: column;
       gap: 9px;
     }
+
+
+
+  /* //for mobile screens: media-queries (responsive) */
+
+  @media screen and (max-width:420px) {
+
+  
+.banner {
+  background-image: url(../images/mainBannerMobile.png);
+  width: 101%;
+  height: 148vh;
+  background-size: cover;
+}
+
+.bannerContent {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  justify-content: flex-start;
+  /* align-items: center; */
+  margin: auto;
+  /* margin-top: 78px; */
+  height: 135vh;
+  width: 99%;
+}
+
+.schoolInfoContMobile {
+  width: 78%;
+  height: 100%;
+  color: whitesmoke;
+  line-height: 59px;
+  margin-top: 7%;
+}
+
+.schoolName {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.schoolDetails {
+  font-weight: 700;
+}
+
+.formSection {
+  width: 78%;
+  height: 33%;
+  /* margin-bottom: 15%; */
+  margin-top: 13%;
+}
+
+
+.schoolName {
+  font-size: 35px;
+}
+
+.formSection {
+  width: 78%;
+  height: 60%;
+  /* margin-bottom: 15%; */
+  margin-top: 13%;
+  border: 1px solid #00b9ff;
+}
+
+.bannerContent {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  /* margin-top: 78px; */
+  height: 126vh;
+  width: 100%;
+}
+
+
+.statisticsContainer {
+  display: grid;
+  place-items: center;
+  height: 471px;
+  background: #d1e9f3;
+  grid-template-columns: repeat(2, 0fr);
+  row-gap: -10%;
+  /* margin-top: 650px; */
+}
+
+.byParentsDiv{
+  width: 108%;
+}
+
+.messagesExchangedDiv{
+  width: 200%;
+}
+
+
+.aboutSchoolCont {
+  margin-left: 3%;
+  height: 889px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.aboutDetails {
+  height: 88%;
+  width: 85%;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aboutDetalisHeading {
+  color: #0099FF;
+  font-size: 40px;
+}
+
+.aboutBanner {
+  height: 60%;
+  width: 93%;
+  /* border: 1px solid yellow; */
+}
+
+.aboutButtons{
+  display: flex;
+  justify-content:flex-start ;
+  align-items: center;
+}
+
+.aboutButton{
+  color: whitesmoke;
+  font-size: 19px;
+  background-color: #F98E2B;
+  display: flex;
+  height: 50px;
+  width: 140px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.aboutButton:hover{
+  cursor: pointer;
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.tourSection {
+  display: flex;
+  flex-direction: column;
+  background: #d1e9f3;
+  height: 1184px;
+}
+
+.tourHeading {
+  color: rgb(0, 153, 255);
+  /* padding: 3%; */
+  font-size: 40px;
+  width: 70%;
+  height: 8%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -14%;
+}
+
+.tourContainer {
+  width: 65%;
+  margin: auto;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  /* border: 1px solid red; */
+}
+
+.innnerContTourLeft {
+  width: 100%;
+  height: 86%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 2%;
+  border: 1pxs solid;
+  /* border: 1px solid green; */
+}
+
+.lowerCont {
+  width: 100%;
+  height: 65%;
+  width: 100%;
+  align-items: center;
+  /* border: 1px solid orange; */
+}
+
+.biggerTourImageLeft {
+  width: 62vw;
+  height: 30vh;
+}
+
+.innerContTourRight {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  /* border: 1px solid green; */
+}
+
+.biggerTourImageRight {
+  width: 62vw;
+  height: 30vh;
+}
+
+.buttonTourSection {
+  color: whitesmoke;
+  font-size: 19px;
+  background-color: #F98E2B;
+  display: flex;
+  height: 50px;
+  width: 230px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: -10%;
+}
+
+
+
+.gallarySection {
+  width: 100%;
+  height: 167vh;
+  /* border: 1px solid red; */
+}
+
+.galleryHeading {
+  color: #0099FF;
+  padding: 3%;
+  padding-left: 9%;
+  font-size: 40px;
+  width: 18%;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.galleryContainer {
+  /* border: 2px solid blue; */
+  width: 78%;
+  height: 93%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insideContainerGallery {
+  width: 100%;
+  height: 33%;
+  /* border: 1px solid green; */
+  padding: 2%;
+}
+
+.galleryImage {
+  height: 51%;
+  width: 100%;
+}
+
+
+.prinicipalSection {
+  margin: auto;
+  width: 80%;
+  height: 101vh;
+  display: flex;
+  background: #d1e9f3;
+  display: flex;
+  flex-basis: col;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  margin-bottom: 100px;
+}
+
+.prinicipalSectionHeading {
+  color: #0099FF;
+  font-size: 34px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.prinicipalSectionCont1 {
+  width: 96%;
+  height: 56%;
+  /* border: 1px solid blue; */
+  padding: 2%;
+  /* padding: 5%; */
+}
+
+.principalImage {
+  width: 100%;
+  height: 72%;
+  height: 94%;
+  float: right;
+}
+
+
+
+.programsOfferedSection {
+  width: 99%;
+  height: 180vh;
+  /* border: 1px solid red; */
+  /* margin-bottom: 200px; */
+}
+
+.programsOfferedHeading {
+  color: #0099FF;
+  padding: 3%;
+  padding-left: 9%;
+  font-size: 35px;
+  width: 92%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.programsOfferedContainer {
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  align-items: center;
+}
+
+.insideProgramsOfferedContainer {
+  width: 84%;
+  height: 30%;
+  /* border: 1px solid green; */
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2%;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.programsOfferedImage {
+  width: 69%;
+  height: 39%;
+}
+
+.programsCardHeading {
+  font-size: 19px;
+  margin-top: 3%;
+  font-weight: 600;
+  /* border: 1px solid blue; */
+  width: 65vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.schoolFeaturesSection {
+  width: 100%;
+  height: 180vh;
+}
+
+.featuresCardHeading {
+  font-size: 20px;
+  margin-top: 3%;
+  font-weight: 600;
+  width: 62vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.schoolFeaturesPara{
+  margin-bottom: 10%;
+
+}
+
+.programsOfferedHeading {
+  color: #0099FF;
+  padding: 3%;
+  /* padding-left: 9%; */
+  font-size: 35px;
+  width: 92%;
+  margin: auto;
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+
+.newsAndEventSection {
+  /* border: 1px solid red; */
+  height: 79vh;
+  width: 75%;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 12%;
+}
+
+.newsEventInnerCont {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.newsEventInnerCont > img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.newsEventInnerCont2 {
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.newsEventHeading {
+  color: #0099FF;
+  font-size: 40px;
+  margin-top: 4%;
+}
+
+.newsEventSubHeading {
+  font-size: 25px;
+  margin-top: 13px;
+}
+
+.buttonIcon {
+  width: 15%;
+  margin-top: 4%;
+}
+
+
+.quotesHeading {
+  color: rgb(0, 153, 255);
+  padding: 3%;
+  font-size: 35px;
+  width: 83%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 23%;
+}
+
+.sliderRightButton{
+  margin-top: -13%;
+  margin-right: 76%
+}
+
+
+.ratingSectionOuterCont {
+  background: #d1e9f3;
+  height: 40vh;
+  /* border: 1px solid red; */
+}
+
+.ratingSection {
+  width: 100%;
+  height: 76vh;
+  margin: auto;
+  background: white;
+}
+
+.ratingHeading {
+  color: rgb(0, 153, 255);
+  padding: 3%;
+  font-size: 40px;
+  width: 77%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.ratingsCont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  width: 100%;
+  height: 32%;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-top: 4%;
+
+  
+}
+
+.rating {
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+
+.ratingItem {
+
+  width: 102%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid gray;
+}
+
+
+.container-syllabus {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  /* padding: 0 1.5rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.container-syllabus h1 {
+  color: #0099FE;
+  font-size: 24px;
+  /* margin-top: 4%; */
+  width: 90%;
+  margin: auto;
+  font-weight: 400;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.faqSearchDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.faqSearchBox {
+  width: 68%;
+  padding: 1%;
+  border: 2px solid orange;
+  border-radius: 12px;
+}
+
+.searchIconGreen {
+  width: 58%;
+  margin-top: 24%;
+  margin-bottom: 12%;
+  margin-left: -89%;
+  padding: 0%;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  /* padding: 3%; */
+  padding-top: 3%;
+}
+
+
+.contactSection {
+  width: 100%;
+  height: 133vh;
+  background: #d1e9f3;
+  /* border: 1px solid red; */
+  padding-top: 13%;
+}
+
+.contactHeading {
+  color: rgb(0, 153, 255);
+  padding: 3%;
+  font-size: 40px;
+  width: 61%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contactSection > p {
+  width: 74%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.contactContainer {
+  /* border: 1px solid red; */
+  width: 70%;
+  height: 103vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.innerContactCont {
+  background-color: #ffffff;
+  width: 100%;
+  height: 29%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 210%;
+  border-radius: 3%;
+  /* border: 1px solid red; */
+}
+
+.contactCardHeading {
+  font-size: 24px;
+  font-weight: 500;
+}
+ 
+}
