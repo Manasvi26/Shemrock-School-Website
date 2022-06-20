@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .banner{
@@ -93,10 +93,14 @@ body{
 
 .schoolName{
     font-size: 40px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
 }
 
 .schoolDetails{
     font-weight: 700;
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px;
 }
 
 .schoolDetailsIcon{
@@ -303,6 +307,8 @@ body{
 .aboutDetalisHeading{
   color: #0099FF;
   font-size: 50px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .aboutDetalisPara{
@@ -374,6 +380,8 @@ width: 44%;
   display: flex;
   justify-content: center;
   margin-bottom: -1%;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .innnerContTourLeft{
@@ -480,6 +488,8 @@ width: 44%;
   width: 18%;
   margin: auto;
   margin-top: 2%;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 
 
 }
@@ -559,6 +569,8 @@ line-height:25px;
   width: 35%;
   margin: auto;
   margin-top: 2%;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .programsOfferedContainer{
@@ -664,6 +676,8 @@ align-items: center;
       color: #0099FF;
       font-size: 50px;
       margin-top: 4%;
+      font-family: 'Comic Neue', cursive;
+      font-weight: 700;
     }
 
     .newsEventSubHeading{
@@ -701,6 +715,8 @@ align-items: center;
     margin: auto;
     display: flex;
     justify-content: center;
+      font-family: 'Comic Neue', cursive;
+    font-weight: 700;
     }
 
     .ratingsCont{
@@ -882,6 +898,7 @@ align-items: center;
     .contactCardHeading{
       font-size: 28px;
       font-weight: 500;
+      
     }
 
     .contactHeading{
@@ -902,6 +919,8 @@ align-items: center;
       margin: auto;
       display: flex;
       justify-content: center;
+      font-family: 'Comic Neue', cursive;
+      font-weight: 700;
     }
 
     .contactSection > p{
@@ -1233,8 +1252,6 @@ align-items: center;
     
     .explore {
       position: relative;
-      width: 300px;
-      height: 300px;
       padding: 12px;
       transition: all .2s ease-in-out;
       cursor: pointer
@@ -1289,11 +1306,39 @@ align-items: center;
       gap: 9px;
     }
 
+    .glide__arrow--left{
+      margin-top: -13%;
+    }
+    
+    .glide__arrow--right{
+      margin-top: -13%;
+    }
+
+    .ratingSpan{
+      display: inline-block;
+      background-color: #F98E2B;
+      margin-right: 13px;
+      border-radius: 9px;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+    
+
 
 
   /* //for mobile screens: media-queries (responsive) */
 
   @media screen and (max-width:420px) {
+
+
+.ratingSpan{
+  display: inline-block;
+  background-color: #F98E2B;
+  margin-right: 13px;
+  border-radius: 9px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
 
   
 .banner {
@@ -1327,9 +1372,13 @@ align-items: center;
 .schoolName {
   font-size: 27px;
   font-weight: 600;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .schoolDetails {
+  font-weight: 700;
+  font-family: 'Comic Neue', cursive;
   font-weight: 700;
 }
 
@@ -1408,6 +1457,8 @@ align-items: center;
 .aboutDetalisHeading {
   color: #0099FF;
   font-size: 40px;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .aboutBanner {
@@ -1460,6 +1511,8 @@ align-items: center;
   display: flex;
   justify-content: center;
   margin-bottom: -14%;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .tourContainer {
@@ -1545,6 +1598,8 @@ align-items: center;
   margin-top: 2%;
   display: flex;
   justify-content: center;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .galleryContainer {
@@ -1588,6 +1643,8 @@ align-items: center;
   color: #0099FF;
   font-size: 34px;
   width: 100%;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
   /* border: 1px solid red; */
 }
 
@@ -1623,6 +1680,8 @@ align-items: center;
   width: 92%;
   margin: auto;
   margin-top: 2%;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .programsOfferedContainer {
@@ -1696,6 +1755,8 @@ align-items: center;
   display: flex;
   margin-top: 2%;
   justify-content: center;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 
@@ -1740,6 +1801,8 @@ align-items: center;
   color: #0099FF;
   font-size: 40px;
   margin-top: 4%;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .newsEventSubHeading {
@@ -1762,6 +1825,8 @@ align-items: center;
   display: flex;
   justify-content: center;
   margin-bottom: 23%;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .sliderRightButton{
@@ -1791,6 +1856,8 @@ align-items: center;
   margin: auto;
   display: flex;
   justify-content: center;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .ratingsCont {
@@ -1890,6 +1957,8 @@ align-items: center;
   margin: auto;
   display: flex;
   justify-content: center;
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
 }
 
 .contactSection > p {
